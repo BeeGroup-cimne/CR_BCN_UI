@@ -123,17 +123,40 @@ The legend can be set to either linear or quantile mode using the second button 
 
 #### Change of background layers
 The third button from the top allows to vary the background map between three types: basic (default), detailed and satellite. Finally, with the fourth button from the top, the coloured polygons can be turn to invisible if the user wants to focus uniquely on the background map.
-   <p align="center"><img src="figures/fig10.png" width="90%"></p>
+   <p align="center"><img src="figures/fig10.png" width="70%"></p>
    <p align="center"><img src="figures/fig10_1.png" width="45%"> <img src="figures/fig10_2.png" width="45%"></p>
    <p align="center"><img src="figures/fig11_1.png" width="45%"> <img src="figures/fig11_2.png" width="45%"></p>
    <p align="center"><img src="figures/fig11_3.png" width="45%"> <img src="figures/fig11_4.png" width="45%"></p>
    <p align="center"><i>Figure 14. Different types of background map</i></p>
 
 ### 📊 Climate Vulnerability Index tab
-TO DO
+In the second tab of the website, accessible from the top bar, climate vulnerability indexes are displayed on a map. Currently, the only available index is the vulnerability map to heat.
+<p align="center"><img src="figures/fig18.png" width="70%"></p> 
+<p align="center"><i>Figure 15. Visualisation of the heat vulnerability map</i></p>
+
+In this tab, in addition to functionalities similar to those in the indicators tab, users can customize the weights assigned to each indicator group. This allows for a more tailored representation based on different sensitivities or user preferences.
+<p align="center"><img src="figures/fig19.png" width="48%"> <img src="figures/fig20.png" width="48%"></p> 
+<p align="center"><i>Figure 16. Two additional examples of the heat vulnerability map with modified indicator weights</i></p>
 
 ### 📊 Climate Shelters tab
-TO DO
+In the third tab of the website, users can explore the availability of climate shelters based on a set of predefined characteristics—such as access to drinking water, accessible restrooms, and pet allowance—as well as their opening hours and typology (e.g., libraries, swimming pools, parks). The filtering logic across the different sections applies an AND operator. The map is colour-coded to represent the walking time (in minutes) to the nearest climate shelter, calculated using isochrone maps with a maximum walking distance of 30 minutes.
+
+In the left panel, the first section allows users to specify a date and time to filter shelters according to their official opening schedules throughout the year.
+<p align="center"><img src="figures/fig26.png" width="70%">
+</p> <p align="center"><i>Figure 17. Filtering climate shelters by date and time</i></p>
+
+In the second section, users can select the required characteristics using checkboxes.
+The third section enables users to choose the type of building or built environment associated with the shelter. All selected filters across these sections are combined using an AND logic.
+<p align="center"><img src="figures/fig25.png" width="70%"></p>
+<p align="center"><i>Figure 18. Filtering by shelter characteristics and typology</i></p>
+
+Clicking on a black dot on the map displays a detailed modal with comprehensive information about the selected climate shelter. Upon selection, the shelter’s marker changes to red.
+<p align="center"><img src="figures/fig27.png" width="70%"></p>
+<p align="center"><i>Figure 19. Shelter information modal and marker highlighting</i></p>
+
+Additionally, clicking on a building highlights its proximity to the nearest climate shelter. The estimated walking time (in minutes) is shown, and the corresponding shelter is marked in red on the map.
+<p align="center"><img src="figures/fig28.png" width="70%"></p>
+<p align="center"><i>Figure 20. Display of walking time to the nearest shelter from a selected building</i></p>
 
 ---
 
